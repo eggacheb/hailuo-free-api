@@ -6,10 +6,7 @@
         },
         {
             "src": "./dist/index.js",
-            "use": "@vercel/node",
-            "config": {
-                "maxDuration": 10
-            }
+            "use": "@vercel/node"
         }
     ],
     "routes": [
